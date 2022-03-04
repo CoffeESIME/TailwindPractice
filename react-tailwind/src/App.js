@@ -3,15 +3,15 @@ import sanFrancisco from './img/sanFrancisco.jpg';
 
 function App() {
   return (
-    <div>
+    <div className="font-Montserrat">
       <nav></nav>
       <div id="tab_bar"></div>
       <section  className='w-full h-screen'> 
         <div id='home'>
           <div className='w-full h-3/4'>
           <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
-              <input className="rounded-full p-3" type="search" name="" id="" placeholder='San Francisco'/>
-              <button className="text-xl text-primary font-semibold p-4 w-32 rounded-full shadow-sm bg-white">Explorar</button>
+              <input className="rounded-full p-3 shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" type="search" name="" id="" placeholder='San Francisco'/>
+              <button className="text-xl text-primary font-semibold p-4 w-32 rounded-full shadow-sm bg-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110">Explorar</button>
             </div>
             <div className='w-full h-full'>
               <img src={sanFrancisco} alt='imagen'/>
