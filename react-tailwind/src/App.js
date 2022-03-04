@@ -37,7 +37,19 @@ function App() {
           </div>
           </div>
         </div>
-        <div id='rentas_destacadas'></div>
+        <div className="px-2 h-full w-full " id='rentas_destacadas'>
+          <p className="text-3xl text-primary  font-semibold pb-6 mt-6">Rentas destacadas</p>
+          <div className="w-full h-full flex flex-col space-y-6 items-center justify-center">
+            <div className="w-full h-96 bg-red-200 rounded-xl ">
+              <p className="Card-title"> Chicago</p>
+              <p className="text-sm pl-8 text-black mr-24">Cuenta con 2 habitaciones, baño y cocina</p>
+            </div>
+            <div className="w-full h-96 bg-red-200 rounded-xl ">
+              <p className="Card-title"> Chicago</p>
+              <p className="text-sm pl-8 text-black mr-24">Cuenta con 2 habitaciones, baño y cocina</p>
+            </div>
+          </div>
+        </div>
       </section>
       <footer></footer>
     </div>
